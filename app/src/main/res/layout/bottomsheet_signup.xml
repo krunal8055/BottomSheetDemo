@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/Linear_signup_bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheet_shape"
+    android:backgroundTint="@color/Color5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/Color1"
+        android:textAllCaps="true"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/Color2" />
+    <EditText
+        android:id="@+id/fn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First name"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_shape"
+        android:textColorHint="@color/Color1"
+        android:textColor="@color/Color1"
+        android:textSize="20dp"
+        android:padding="8dp"/>
+    <EditText
+        android:id="@+id/ln_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_shape"
+        android:textColorHint="@color/Color1"
+        android:textColor="@color/Color1"
+        android:textSize="20sp"
+        android:padding="8dp"/>
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email id"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_text_shape"
+        android:textColorHint="@color/Color1"
+        android:textColor="@color/Color1"
+        android:textSize="20sp"
+        android:padding="8dp"/>
+    <EditText
+        android:id="@+id/password_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_shape"
+        android:textColorHint="@color/Color1"
+        android:textColor="@color/Color1"
+        android:textSize="20sp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/signup_btn_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="18dp"
+        android:background="@drawable/edit_text_shape"
+        android:backgroundTint="@color/Color1"
+        android:textColor="@color/Color2"
+        android:layout_margin="8dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Registered."
+            android:textSize="16dp"
+            android:textColor="@color/Color2"/>
+        <Button
+            android:id="@+id/already_r_login_btn_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login here."
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/Color1" />
+    </LinearLayout>
+
+</LinearLayout>
